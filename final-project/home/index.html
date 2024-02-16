@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class = "part">
+        <div class="hp-1">
+            <p>Algorithm Visualizer</p>
+        </div>
+        <div class="hp-2">
+            <a>Home</a>
+            <a>About Us</a>
+        </div>
+    </div>
+    <div class="option">
+        <div class="opt pathOp">
+            <img class="image image-1" src="path-fing-img.png" alt="">
+            <div class="button">
+                <button>Path-finding Algorithms</button>
+            </div>
+        </div>
+        <div class="opt sortOp">
+            <img class="image image-2" src="sorting-img.png" alt="">
+            <div class="button">
+                <button id="sorting">Sorting Algorithms</button>
+            </div>
+        </div>
+    </div>
+
+        <script>
+            // Add an event listener to the button
+            document.getElementById("sorting").addEventListener("click", function() {
+            // Redirect to your React app
+            window.location.href = "http://localhost:3000/";
+            });
+        </script>
+        <!-- <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+        <script src="/sort-visualizer/src/App.js"></script> -->
+</body>
+</html>
